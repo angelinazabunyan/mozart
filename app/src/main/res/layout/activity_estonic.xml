@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_42"
+    tools:context=".Estonic">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="379dp"
+        android:layout_height="324dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Эспрессо-тоник - прохладный освежающий напиток с терпким и пряным привкусом. Другие названия этого коктейля - “каффе-тоник” или “кофе-тоник”. Он идеален для жаркого дня и вечеринки. Порция эспрессо и тоник, вылитые в стакан со льдом освежают, а сочетание хинина и кофеина в его составе делает напиток бодрящим"
+        android:textColor="#3C3939"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.911" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

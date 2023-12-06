@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/img_36"
+    android:layout_height="match_parent"
+    tools:context=".Americfno">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="379dp"
+        android:layout_height="324dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+android:text="Американо — это эспрессо с добавлением горячей воды. Допускается разбавление эспрессо водой в соотношении 1:1, 1:2 или 1:4. Классическая пропорция — 1:1, но вы можете приготовить американо так, как вам нравится. Чем больше воды, тем менее концентрированным получится напиток."
+        android:textColor="#3C3939"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.911" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
